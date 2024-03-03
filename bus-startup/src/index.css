@@ -34,3 +34,38 @@ body{
   background-color: #00BFFF;
   border-radius: 50%;
 }
+/*! ------------------------------------- LIGHTBLUE BUTTON ------------------------------------- */
+.blue-button {
+  background-color: #00C4CC;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: #00C4CC solid 2px;
+  transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+  background-color: #00A4AC; 
+}
+
+/*! ------------------------------------- LIGHTBLUE OUTLINE BUTTON ------------------------------------- */
+.blue-outline-button {
+  background-color: #00c5cc00; 
+  color: #00C4CC;
+  padding: 10px 20px;
+  border: 2px solid #00C4CC;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.blue-outline-button:hover {
+  background-color: #00A4AC;
+}
