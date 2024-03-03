@@ -1,0 +1,36 @@
+body{
+  background: linear-gradient(to bottom, #323647, #34343A);
+  font-family: Lato, sans-serif;
+  height: 100vh;
+  margin: 0;  
+}
+
+/*! ------------------------------------- FOOTER ------------------------------------- */
+
+.footer {
+  background-color: rgb(0, 0, 0, 0.58);
+  color: #fff;
+  padding: 3rem 0rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.footer-terms-paragraph {
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+.bus-icon{
+  width: 100px;
+  height: 100px;
+  background-color: #00BFFF;
+  border-radius: 50%;
+}
