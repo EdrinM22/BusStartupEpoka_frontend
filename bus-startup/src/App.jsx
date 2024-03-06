@@ -9,6 +9,12 @@ function App() {
   return (
     <>
       <Header />
+      <div className="content">
+        <h1>Welcome to our bus startup</h1>
+        <p>
+          We are a startup that is trying to make the bus experience better for everyone.
+        </p>
+      </div>
       <Footer />
       <LoginButton/>
       <JoinUsButton/>
