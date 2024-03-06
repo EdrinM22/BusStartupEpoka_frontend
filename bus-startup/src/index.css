@@ -103,3 +103,64 @@ body{
   background-color: #00BFFF;
   border-radius: 50%;
 }
+
+/*! ------------------------------------- HERO ------------------------------------- */
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 0 20px;
+  text-align: left;
+  margin-left: 20px;
+  height: 40vw;
+  width: 40vw;
+  font-family: Lato, sans-serif;
+}
+.text-box-with-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  width: 600px;
+  margin:auto;
+  background-color: rgba(0, 0, 0, 0.329);
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  
+}
+.body-buttons-layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+.hero-smalltext{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+}
+.bus-image-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:auto;
+  margin-top: auto;
+  width: 40vw;
+  height: 40vw;
+}
+.hero{
+  display: flex;
+
+}
