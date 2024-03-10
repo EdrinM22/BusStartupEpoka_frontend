@@ -1,5 +1,5 @@
 import LoginButton from "./custom_elements/login_button";
-import logoIcon from "../assets/busicon.png";
+import logoIcon from "/busicon.png";
 
 const Header = () => {
     return (
