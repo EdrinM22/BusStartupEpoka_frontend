@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LoginButton from "./components/custom_elements/login_button";
 import JoinUsButton from "./components/custom_elements/join_us_button";

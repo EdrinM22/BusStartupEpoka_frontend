@@ -451,3 +451,94 @@ body{
   }
 
 }
+
+/*! ------------------------------------- Fattorino component-------------------------- */
+.station-arrived-fattorino{
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  
+  background-color: #02fab400; 
+  color: #00C4CC;
+  padding: 10px 20px;
+  border: 2px solid #00C4CC;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+
+
+}
+.station-arrived-fattorino:hover {
+  background-color: #00A4AC;
+}
+.current-fattorino-status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+
+
+
+}
+.station-goback-fattorino{
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  
+  background-color: #02fab400; 
+  color: #00C4CC;
+  padding: 10px 20px;
+  border: 2px solid #00C4CC;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.station-goback-fattorino:hover {
+  background-color: #00A4AC;
+}
+
+.button-layout-fattorino{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+
+  
+}
+.fattorino-icon{
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+.bus-ticket-icon{
+  width: 200px;
+  height: 200px;
+  
+  margin-top: 20px;
+}
+.photos-layout-fattorino{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-top: 30px;
+}
