@@ -1,4 +1,4 @@
-import logoIcon from "../assets/busicon.png";
+import logoIcon from "/busicon.png";
 
 const Footer = () => {
   return (
