@@ -1,14 +1,18 @@
-export default function Header() {
+import LoginButton from "./custom_elements/login_button";
+import logoIcon from "/busicon.png";
+
+const Header = () => {
     return (
-        <header>
-        <h1>Bus Startup</h1>
-        <nav>
-            <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        </header>
-    )
-}
+      <header className="header">
+        <div className="nav-container">
+          <img src={logoIcon} alt="Bus Logo" className="bus-icon-header"/>
+          <span className="nav-text">Home</span>
+          <span className="nav-text">Map</span>
+          <span className="nav-text">Complain</span>
+        </div>
+        <LoginButton/>
+      </header>
+    );
+  }
+  
+  export default Header;

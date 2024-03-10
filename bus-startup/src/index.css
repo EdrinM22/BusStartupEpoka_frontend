@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 body{
   background: linear-gradient(to bottom, #323647, #34343A);
-  font-family: Lato, sans-serif;
-  height: 100vh;
-  margin: 0;  
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /*! ------------------------------------- FOOTER ------------------------------------- */
 
 .footer {
-  background-color: rgb(0, 0, 0, 0.58);
+  background-color: #15171e;
   color: #fff;
   padding: 3rem 0rem;
 }
@@ -33,4 +36,418 @@ body{
   height: 100px;
   background-color: #00BFFF;
   border-radius: 50%;
+}
+/*! ------------------------------------- LIGHTBLUE BUTTON ------------------------------------- */
+.blue-button {
+  background-color: #00C4CC;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: #00C4CC solid 2px;
+  transition: background-color 0.3s;
+}
+
+.blue-button:hover {
+  background-color: #00A4AC; 
+}
+
+/*! ------------------------------------- LIGHTBLUE OUTLINE BUTTON ------------------------------------- */
+.blue-outline-button {
+  background-color: #02fab400; 
+  color: #00C4CC;
+  padding: 10px 20px;
+  border: 2px solid #00C4CC;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.blue-outline-button:hover {
+  background-color: #00A4AC;
+}
+
+
+/*! ------------------------------------- HEADER ------------------------------------- */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #15171e;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-text {
+  color: #f0f0f0;
+  margin-right: 20px;
+  cursor: pointer;
+  padding-left: 20px;
+  display: flex;
+}
+
+
+.nav-text:hover {
+  color: #00A4AC;
+}
+.bus-icon-header{
+  width: 50px;
+  height: 50px;
+  background-color: #00BFFF;
+  border-radius: 50%;
+}
+
+/*! ------------------------------------- HERO ------------------------------------- */
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  padding: 0 20px;
+  text-align: left;
+  margin-left: 20px;
+  height: 40vw;
+  width: 40vw;
+  font-family: Lato, sans-serif;
+}
+.text-box-with-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  width: 600px;
+  margin:auto;
+  background-color: #15171e;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  
+}
+.body-buttons-layout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+.hero-smalltext{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lato, sans-serif;
+}
+.bus-image-hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:auto;
+  margin-top: auto;
+  width: 40vw;
+  height: 40vw;
+}
+.hero{
+  display: flex;
+}
+
+
+/*! ------------------------------------- Primary button ------------------------------------- */
+
+.primary-button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #1BD1C6;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+
+  &&:hover {
+    background-color: #BE0866;
+  }
+
+  &&:active {
+    background-color: #1BD1C6;
+  }
+}
+
+/*! ------------------------------------- Secondary button ------------------------------------- */
+
+.secondary-button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #1BD1C6;
+  color: #1BD1C6;
+  padding: 0.5rem 1.5rem;
+  border-radius: 7px;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+
+  &&:hover {
+    border: 2px solid #BE0866;
+    color: #BE0866;
+  }
+
+  &&:active {
+    background-color: #1BD1C6;
+  }
+}
+
+/*! ------------------------------------- TEXT Button ------------------------------------- */
+
+.text-button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #BE0866;
+  padding: 0.5rem 1.5rem;
+  font-size: 18px;
+  transition: 0.3s ease-in;
+
+  &&:hover {
+    color: #a30557;
+  }
+
+  &&:active {
+    color: #1BD1C6;
+  }
+}
+
+/*! ------------------------------------- Our Service ------------------------------------- */
+#our-service-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  border-bottom: #1BD1C6 solid 2px;
+  overflow: initial;
+}
+
+#our-service-section h2{
+  margin: 0 0 40px 0;
+  color: #1BD1C6;
+  font: inherit;
+  font-size: 40px;
+}
+
+#our-service-card-container{
+  width: 90%;
+  max-width: 90rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.our-services-card {
+  background-color: rgba(0, 0, 0, 0.42);
+  color: #fff;
+  padding: 20px;
+
+  &&.left{
+    border-radius: 20px 0 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.32) -20px 30px 30px;
+  }
+
+  &&.right{
+    border-radius: 0 20px 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.32) 20px 30px 30px ;
+  }
+
+  &&.middle{
+    box-shadow: rgba(0, 0, 0, 0.32) 0px 30px 30px;
+  }
+}
+
+.our-services-card img {
+  width: 100%;
+  height: 200px;
+}
+
+.our-services-card h3 {
+  margin: 10px 0 30px 0;
+}
+
+.our-services-card p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1137px) and (min-width: 746px){
+  #our-service-card-container{
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+  }
+
+  .our-services-card{
+    &&.left{
+      border-radius: 20px ;
+      box-shadow: none;
+    }
+
+    &&.right{
+      border-radius: 20px;
+      box-shadow: none;
+    }
+
+    &&.middle{
+      border-radius: 20px;
+      box-shadow: none;
+    }
+  }
+  
+}
+
+@media screen and (max-width: 746px){
+  .our-services-card{
+    &&.left{
+      border-radius: 20px 20px 0 0;
+      box-shadow: rgba(0, 0, 0, 0.32) 0px -20px 30px;
+    }
+
+    &&.right{
+      border-radius: 0 0 20px 20px;
+      box-shadow: rgba(0, 0, 0, 0.32) 0px 20px 30px;
+    }
+
+    &&.middle{
+      box-shadow: rgba(0, 0, 0, 0.32) 0px 0px 0px;
+    }
+  }
+  
+}
+
+/*! ------------------------------------- Hero ------------------------------------- */
+
+.hero-section{
+  background-color: transparent;
+  color: #fff;
+  border-bottom: #1BD1C6 solid 2px;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5rem;
+  max-width: 70rem;
+}
+
+.hero-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 0.125rem;
+}
+
+.hero-text-container h1{
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.hero-text-container p{
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.hero-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.hero-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  height: 18rem;
+}
+
+.hero-image-container img{
+  object-fit: contain;
+  height: 18rem;
+}
+
+@media screen and (max-width: 640px){
+  .hero-container{
+    padding-top: 3rem; 
+    padding-bottom: 3rem;
+  }
+
+  .hero-text-container h1{
+    font-size: 3.75rem; /* 60px */
+    line-height: 1;
+  }
+
+  .hero-text-container p{
+    margin-bottom: 3rem;
+  }
+
+  .hero-image-container{
+    height: 20rem;
+  }
+
+  .hero-image-container img{
+    height: 15rem;
+  }
+  
+}
+
+@media screen and (min-width: 768px){
+  .hero-container{
+    padding-top: 6rem; 
+    padding-bottom: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero-text-container{
+    max-width: 28rem; 
+    text-align: left;
+  }
+
+  .hero-image-container{
+    margin-top: 0;
+    height: 24rem;
+  }
+
+  .hero-image-container img{
+    height: 24rem;
+  }
+
 }
